@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+    <html lang="he">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Osher's Portfolio</title>
+            <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+             <link rel="stylesheet" href="styles.css">
+        </head>
+        <body id="body">
+            <header class = nav-header>
+                <div class="left-nav-items">
+                    <img class="logo" src="assets/profile-image.png" alt="logo">
+                    <div class="nav-logo">
+                        <span>Osher Buchris</span>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a class="main-button" href="index.html">ראשי</a></li>
+                        <li><a class="normal-button" href="#profile">אודות</a></li>
+                        <li><a class="normal-button" href="#projects">שירותים</a></li>
+                        <li><a class="normal-button" href="#contact">צור קשר</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="hero-section">
+                    <h2 class="hero-title">תיק עבודות אישי</h2>
+                    <p class="hero-subtitle">שלום, אני אושר בוכריס, מפתח פרונטנד מקצועי עם ניסיון בבניית אתרים באמצעות HTML, CSS ו-JavaScript. כאן תוכלו למצוא דוגמאות לעבודות שלי.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/osherb12/portfolio" target="_blank">
+                        <button class="hero-button primary">לפרטים נוספים</button>
+                    </a>
+                    <a id="download-project" href="index.html" download="index.html">
+                        <button class="hero-button secondary">להורדת הפרויקט</button>
+                    </a>
+                </div>
+
+            </section>
+            <section class="tech-stack">
+                <div class="tech-logos">
+                    <img src="assets/sass.png" alt="sass">
+                    <img src="assets/img-API.png" alt="sass">
+                    <img src="assets/img-Bootstrap.png" alt="sass">
+                    <img src="assets/img-CSS.png" alt="sass">
+                    <img src="assets/img-JS.png" alt="sass">
+                    <img src="assets/img-OOP.png" alt="sass">
+                    <img src="assets/img-TypeScript.png" alt="sass">
+                    <img src="assets/img-ES6.png" alt="sass">
+                    <img src="assets/img-NodeJS.png" alt="sass">
+                </div>
+            </section>
+        <hr class="divider">
+            <section id="profile" class="profile-section">
+                <div class="profile-image">
+                    <!-- Make sure the path to your image is correct -->
+                    <img src="assets/profile-image.png" alt="Profile Image">
+                </div>
+                <h1 class="profile-title">קצת עליי</h1>
+                <p class="profile-text">
+                    שמי אושר בוכריס, ואני מפתח פרונטנד מכפר חיטים. אני עוסק בבניית אתרים רספונסיביים ומודרניים עם דגש על חוויית משתמש מצוינת.
+                </p>
+                <p class="profile-text">
+                    אני מתמחה בטכנולוגיות HTML, CSS, JavaScript, TypeScript, Bootstrap ו-Node.js, ושואף לייצר פתרונות יצירתיים עבור לקוחות.
+
+                </p>
+
+                <a href="assets/projects/resume.pdf" download>
+                    <button class="download-btn">להורדת קורות חיים</button>
+                </a>
+
+            </section>
+            <section id="projects" class="projects-section">
+                <h2 class="projects-title">עבודות נבחרות</h2>
+                <div class="projects-container">
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project1.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 1</h3>
+                        <p class="project-description">תיאור הפרויקט הראשון. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project1.html">פרויקט 1</button>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project2.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 2</h3>
+                        <p class="project-description">תיאור הפרויקט השני. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project2.html">פרויקט 2</button>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project3.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 3</h3>
+                        <p class="project-description">תיאור הפרויקט השלישי. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project3.html">פרויקט 3</button>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project4.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 4</h3>
+                        <p class="project-description">תיאור הפרויקט הרביעי. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project4.html">פרויקט 4</button>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project5.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 5</h3>
+                        <p class="project-description">תיאור הפרויקט החמישי. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project5.html">פרויקט 5</button>
+                    </div>
+                    <div class="project">
+                        <img class="project-image" src="assets/projects/project6.png" alt="Project Image">
+                        <h3 class="project-title">פרויקט 6</h3>
+                        <p class="project-description">תיאור הפרויקט השישי. זהו פרויקט לדוגמה שמציג את היכולות שלי בתחום הפיתוח.</p>
+                        <button class="project-download-btn" data-project="projects/project6.html">פרויקט 6</button>
+                    </div>
+                </div>
+
+                <!-- Hidden iframe for loading project -->
+                <iframe id="project-frame" src="" style="width: 100%; height: 600px; border: none; display: none;"></iframe>
+
+                <!-- Back button to return to project list -->
+                <button id="back-button" style="display: none;">חזרה</button>
+
+            </section>
+            <!-- Game Center -->
+            <!-- Game Center -->
+            <section id="game-center" class="projects-section">
+                <h2 class="projects-title">Game Center</h2>
+                <div class="projects-container">
+                    <!-- Hangman -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/hangman.png" alt="Hangman">
+                        <h3 class="project-title">Hangman</h3>
+                        <button class="game-modal-btn" data-game="hangman">שחק</button>
+                    </div>
+                    <!-- Minesweeper -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/minesweeper.png" alt="Minesweeper">
+                        <h3 class="project-title">Minesweeper</h3>
+                        <button class="game-modal-btn" data-game="minesweeper">שחק</button>
+                    </div>
+                    <!-- Snake -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/snake.png" alt="Snake">
+                        <h3 class="project-title">Snake</h3>
+                        <button class="game-modal-btn" data-game="snake">שחק</button>
+                    </div>
+                    <!-- Sudoku -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/sodoku.png" alt="Sudoku">
+                        <h3 class="project-title">Sudoku</h3>
+                        <button class="game-modal-btn" data-game="sudoku">שחק</button>
+                    </div>
+                    <!-- Tic‑Tac‑Toe -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/tic-tac-toe.png" alt="Tic‑Tac‑Toe">
+                        <h3 class="project-title">Tic‑Tac‑Toe</h3>
+                        <button class="game-modal-btn" data-game="tic-tac-toe">שחק</button>
+                    </div>
+                    <!-- Trivia -->
+                    <div class="project">
+                        <img class="project-image" src="assets/games/trivia.png" alt="Trivia">
+                        <h3 class="project-title">Trivia</h3>
+                        <button class="game-modal-btn" data-game="trivia">שחק</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Game Modal Container -->
+            <div id="game-modal-overlay" class="modal-overlay">
+                <div id="game-modal" class="modal">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-content">
+                        <!-- Hebrew heading for the modal -->
+                        <h2 id="modal-game-title">פרטי המשחק</h2>
+                        <img id="modal-game-img" src="" alt="תמונת משחק">
+                        <!-- Hebrew placeholder; will be overwritten by JS -->
+                        <p id="modal-game-description">כאן יופיע תיאור המשחק.</p>
+
+                        <!-- Tech stack icons -->
+                        <div class="modal-tech-logos">
+                            <img src="assets/img-HTML.png" alt="HTML" class="tech-icon">
+                            <img src="assets/img-CSS.png"  alt="CSS"  class="tech-icon">
+                            <img src="assets/img-JS.png"   alt="JavaScript" class="tech-icon">
+                        </div>
+
+                        <!-- Hebrew buttons -->
+                        <div class="modal-buttons">
+                            <a id="modal-download-link" href="#" download>
+                                <button class="modal-btn download">הורד עכשיו</button>
+                            </a>
+                            <a id="modal-play-link" href="#">
+                                <button class="modal-btn play">שחק עכשיו</button>
+                            </a>
+                            <a id="modal-github-link" href="#" target="_blank">
+                                <button class="modal-btn github">צפה ב-GitHub</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="contact" class="contact-section">
+                <h2 class="contact-title">צור קשר</h2>
+                <p class="contact-description">אנא מלא את הטופס הבא כדי ליצור קשר:</p>
+                <form class="contact-form">
+                    <label for="name">שם:</label>
+                    <input type="text" id="name" name="name" placeholder="שם" required>
+
+                    <label for="email">אימייל:</label>
+                    <input type="email" id="email" name="email" placeholder="אימייל" required>
+
+                    <label for="phone">טלפון:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="טלפון" required>
+
+                    <label for="message">הודעה:</label>
+                    <textarea id="message" name="message" placeholder="הודעה" required></textarea>
+
+                    <button type="submit" class="submit-button">שליחה</button>
+                </form>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-icons">
+                        <div class="icon">
+                            <img src="assets/footer/location.png" alt="Location">
+                            <p>מדינת ישראל</p>
+                        </div>
+                        <div class="icon">
+                            <img src="assets/footer/email.png" alt="Email">
+                            <p>osher@gmail.com</p>
+                        </div>
+                        <div class="icon">
+                            <img src="assets/footer/whatsapp.png" alt="WhatsApp">
+                            <p>055-555555555</p>
+                        </div>
+                        <div class="icon">
+                            <img src="assets/footer/whatsapp.png" alt="Phone">
+                            <p>055-5555555</p>
+                        </div>
+                        <div class="icon">
+                            <img src="assets/footer/linked-in.png" alt="LinkedIn">
+                            <p>linked-in</p>
+                        </div>
+                        <div class="icon">
+                            <img src="assets/footer/facebook.png" alt="Facebook">
+                            <p>facebook</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>Osher Buchris 2025</p>
+                    </div>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+</html>
